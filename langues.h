@@ -10,6 +10,10 @@ typedef enum {
   espagnol,
   suedois,
   yoruba,
+  lithanien,
+  somali,
+  thai,
+  zoulou
   inconnu,
 } langue;
 

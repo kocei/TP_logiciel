@@ -24,6 +24,13 @@ const char* traduire_bonjour(langue lng)
     return "Halla"
   case yoruba:
     return "E ku aaro"
+  case lithanien:
+   return "Sveikas"
+  case thai:
+   return "Sawatdi"
+  case zoulou:
+   return "Sawubona"
+
   default:
     return "?????";
   }
