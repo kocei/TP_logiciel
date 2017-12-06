@@ -1,6 +1,7 @@
 
 
 #include <stdio.h>
+#include <mem.h>
 #include "traduction.h"
 
 
@@ -15,6 +16,8 @@ const char* traduire_bonjour(langue lng)
     return "Hallo";
   case allemand:
     return "Guten Tag";
+    case maori:
+      return "Tena keo";
   default:
     return "?????";
   }

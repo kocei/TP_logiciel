@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include "hello.h"
-
+#include "traduction.h"
 
 
 int main(int argc, char *argv[])
