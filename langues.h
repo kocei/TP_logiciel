@@ -6,6 +6,7 @@ typedef enum {
   anglais,
   neerlandais,
   allemand,
+  espagnol,
   inconnu
 } langue;
 

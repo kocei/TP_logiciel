@@ -15,6 +15,8 @@ const char* traduire_bonjour(langue lng)
     return "Hallo";
   case allemand:
     return "Guten Tag";
+  case espagnol:
+    return "Hola";
   default:
     return "?????";
   }
@@ -33,6 +35,9 @@ langue string_vers_langue(const char *const str)
   }
   if (!strcmp(str,"allemand")) {
     return allemand;
+  }
+  if (!strcmp(str,"espagnol")) {
+    return espagnol;
   }
   return inconnu;
 }
