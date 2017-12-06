@@ -20,6 +20,10 @@ const char* traduire_bonjour(langue lng)
       return "Tena keo";
   case espagnol:
     return "Hola";
+  case suedois:
+    return "Halla"
+  case yoruba:
+    return "E ku aaro"
   default:
     return "?????";
   }

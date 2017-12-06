@@ -6,9 +6,11 @@ typedef enum {
   anglais,
   neerlandais,
   allemand,
-    maori,
+  maori,
   espagnol,
-  inconnu
+  suedois,
+  yoruba,
+  inconnu,
 } langue;
 
 #endif // _LANGUES_H_
